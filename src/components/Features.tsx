@@ -45,7 +45,7 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">
                 AI-Powered Relevance Detection
@@ -54,21 +54,21 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Custom Scoring Logic</p>
             </div>
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Real-Time Domain Analysis</p>
             </div>
             <div className="mt-6">
               <a
                 href="#"
-                className="text-sm font-semibold bg-primary px-4 py-2 text-gray"
+                className="text-sm font-semibold bg-primary px-4 py-2 text-white rounded"
               >
                 Learn More
               </a>
@@ -90,7 +90,7 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">
                 AI-Powered Relevance Detection
@@ -99,21 +99,21 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Custom Scoring Logic</p>
             </div>
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Real-Time Domain Analysis</p>
             </div>
             <div className="mt-6">
               <a
                 href="#"
-                className="text-sm font-semibold bg-primary px-4 py-2 text-gray"
+                className="text-sm font-semibold bg-primary px-4 py-2 text-white rounded"
               >
                 Learn More
               </a>
@@ -154,7 +154,7 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">
                 AI-Powered Relevance Detection
@@ -163,21 +163,21 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Custom Scoring Logic</p>
             </div>
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Real-Time Domain Analysis</p>
             </div>
             <div className="mt-6">
               <a
                 href="#"
-                className="text-sm font-semibold bg-primary px-4 py-2 text-gray"
+                className="text-sm font-semibold bg-primary px-4 py-2 text-white rounded"
               >
                 Learn More
               </a>
@@ -199,7 +199,7 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">
                 AI-Powered Relevance Detection
@@ -208,21 +208,21 @@ function Features() {
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Custom Scoring Logic</p>
             </div>
             <div className="mt-4 flex items-center gap-4">
               <CheckCircleIcon
                 aria-hidden="true"
-                className="size-5 flex-none bg-primary"
+                className="size-5 flex-none "
               />
               <p className="text-sm text-gray">Real-Time Domain Analysis</p>
             </div>
             <div className="mt-6">
               <a
                 href="#"
-                className="text-sm font-semibold bg-primary px-4 py-2 text-gray"
+                className="text-sm font-semibold bg-primary px-4 py-2 text-white rounded"
               >
                 Learn More
               </a>

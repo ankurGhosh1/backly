@@ -4,9 +4,9 @@ import Container from "./Container";
 
 function Hero() {
   return (
-    <div className="bg-[url(/bg-hero.png)] bg-cover bg-center">
+    <div className="bg-[url(/bg-hero.png)] bg-cover bg-center bg-no-repeat">
       <Container>
-        <div className="relative px-4 pt-42 pb-16 ">
+        <div className="relative px-4 pt-36 ">
           <div className="mx-auto text-center">
             <div className="bg-primary inline-block rounded-full px-4 py-1 text-sm font-semibold text-white shadow-md">
               <p>Features</p>
@@ -22,14 +22,14 @@ function Hero() {
             </p>
             <div className="mt-4 flex justify-center gap-4">
               <a
-                className="inline-block rounded border border-indigo-600 bg-primary px-5 py-3 font-medium text-white shadow-sm transition-colors"
+                className="inline-block rounded bg-primary px-5 py-2 font-medium text-white shadow-sm transition-colors"
                 href="#"
               >
                 Get Started
               </a>
 
               <a
-                className="inline-block bg-white rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover"
+                className="inline-block bg-white rounded border border-gray-200 px-5 py-2 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover"
                 href="#"
               >
                 Book a demo

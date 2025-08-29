@@ -1,8 +1,9 @@
-@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.image-contain {
-  object-fit: contain;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }

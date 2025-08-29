@@ -26,6 +26,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 const products = [
   {
@@ -75,10 +76,10 @@ export default function Example() {
           className=" flex items-center justify-between p-4 lg:px-8"
         >
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Backly</span>
               <img alt="" src="/logos.png" className="h-8 w-auto" />
-            </a>
+            </Link>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -91,9 +92,9 @@ export default function Example() {
             </button>
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            <a href="/about" className="text-sm font-semibold text-gray">
+            <Link href="/about" className="text-sm font-semibold text-gray">
               About
-            </a>
+            </Link>
 
             <Popover className="relative">
               <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold text-gray  outline-none">
@@ -121,13 +122,13 @@ export default function Example() {
                         />
                       </div>
                       <div className="flex-auto">
-                        <a
+                        <Link
                           href={item.href}
                           className="block font-semibold text-gray-900"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                         <p className="mt-1 text-gray-600">{item.description}</p>
                       </div>
                     </div>
@@ -135,7 +136,7 @@ export default function Example() {
                 </div>
                 <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                   {callsToAction.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold text-gray-900 hover:bg-gray-100"
@@ -145,29 +146,29 @@ export default function Example() {
                         className="size-5 flex-none text-gray"
                       />
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </PopoverPanel>
             </Popover>
 
-            <a href="#" className="text-sm font-semibold text-gray">
+            <Link href="#" className="text-sm font-semibold text-gray">
               Services
-            </a>
-            <a href="#" className="text-sm font-semibold text-gray">
+            </Link>
+            <Link href="#" className="text-sm font-semibold text-gray">
               Testimonials
-            </a>
-            <a href="#" className="text-sm font-semibold text-gray">
+            </Link>
+            <Link href="#" className="text-sm font-semibold text-gray">
               FAQ
-            </a>
+            </Link>
           </PopoverGroup>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a
+            <Link
               href="#"
-              className="text-sm font-semibold bg-primary px-4 py-2 text-gray"
+              className="text-sm font-semibold bg-primary px-4 py-2 text-white rounded"
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </nav>
         <Dialog

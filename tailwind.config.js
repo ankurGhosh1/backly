@@ -12,12 +12,6 @@ module.exports = {
         tertiary: "#F2F4F3",
         gray: "#848484",
       },
-      screens: {
-        "max-xl": { max: "1540px" },
-        "max-lg": { max: "1024px" },
-        "max-md": { max: "768px" },
-        "max-sm": { max: "548px" },
-      },
     },
   },
   plugins: [],
