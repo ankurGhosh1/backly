@@ -12,10 +12,10 @@ export default function Home() {
           <b>Effective Date: 10 October, 2025 Last Updated: 14 October, 2025</b>
           <br />
           <br />
-          Welcome to Backly! These Terms and Conditions ("Terms") govern your
-          These Terms govern your use of **Backly**, our SaaS platform for
-          backlink qualification, contact retrieval, and outreach. By accessing
-          or using Backly, you agree to these Terms.
+          Welcome to Backly! These Terms and Conditions (`&quot;`Terms`&quot;`)
+          govern your These Terms govern your use of **Backly**, our SaaS
+          platform for backlink qualification, contact retrieval, and outreach.
+          By accessing or using Backly, you agree to these Terms.
           <br />
           <br />
           <b> 1. Use of Service</b> Backly provides website analysis, backlink
