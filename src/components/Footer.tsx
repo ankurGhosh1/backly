@@ -189,27 +189,17 @@ function Footer() {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/privacy-policy"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
-                    Accessibility{" "}
+                    Privacy Policy{" "}
                   </a>
                 </li>
 
                 <li>
                   <a
-                    href="#"
-                    className="text-gray-700 transition hover:opacity-75"
-                  >
-                    {" "}
-                    Returns Policy{" "}
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#"
+                    href="/refund-policy"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
@@ -219,10 +209,11 @@ function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="/terms-and-conditions"
                     className="text-gray-700 transition hover:opacity-75"
                   >
-                    Hiring-3 Statistics
+                    {" "}
+                    Terms & Conditions{" "}
                   </a>
                 </li>
               </ul>
