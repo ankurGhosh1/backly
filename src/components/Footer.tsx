@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -188,33 +189,33 @@ function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
+                  <Link
                     href="/privacy-policy"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
                     Privacy Policy{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     href="/refund-policy"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
                     Refund Policy{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     href="/terms-and-conditions"
                     className="text-gray-700 transition hover:opacity-75"
                   >
                     {" "}
                     Terms & Conditions{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
