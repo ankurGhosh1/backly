@@ -26,7 +26,7 @@ function Features() {
         <div className="grid grid-cols-[.75fr_1fr] max-sm:grid-cols-[1fr] gap-16 w-full ">
           <div className="flex items-center justify-center">
             <Image
-              src="/features.png"
+              src="/dummydash.png"
               alt="Feature 1"
               width={500}
               height={500}
@@ -122,7 +122,7 @@ function Features() {
 
           <div className="flex items-center justify-center">
             <Image
-              src="/features.png"
+              src="/dummydash.png"
               alt="Feature 1"
               width={500}
               height={500}
@@ -135,7 +135,7 @@ function Features() {
         <div className="grid grid-cols-[.75fr_1fr] max-sm:grid-cols-[1fr] gap-16 w-full ">
           <div className="flex items-center justify-center">
             <Image
-              src="/features.png"
+              src="/dummydash.png"
               alt="Feature 1"
               width={500}
               height={500}
@@ -231,7 +231,7 @@ function Features() {
 
           <div className="flex items-center justify-center">
             <Image
-              src="/features.png"
+              src="/dummydash.png"
               alt="Feature 1"
               width={500}
               height={500}
