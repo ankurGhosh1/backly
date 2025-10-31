@@ -67,7 +67,7 @@ function Steps() {
         </div>
         <div className="flex flex-col justify-center max-md:items-center">
           <Image
-            src="/step.png"
+            src="/step.jpg"
             alt="Steps Image"
             width={500}
             height={500}
