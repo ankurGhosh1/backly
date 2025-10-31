@@ -37,10 +37,10 @@ function Hero() {
             </div>
           </div>
           {/* Hero Image */}
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-8 overflow-y-hidden">
             <div className="mt-8 w-[1000px] h-[522px] max-md:h-[auto]">
               <Image
-                src="/dash.png"
+                src="/dash.jpg"
                 alt="Hero Image"
                 layout="responsive"
                 priority
