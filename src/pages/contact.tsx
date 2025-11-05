@@ -53,8 +53,8 @@ const ContactPage: NextPage = () => {
             Contact Us
           </h1>
           <p className="mt-3 text-lg text-gray-500">
-            We`&apos;`d love to hear from you. Send us a message and
-            we`&apos;`ll respond as soon as possible.
+            We would love to hear from you. Send us a message and
+            we'll respond as soon as possible.
           </p>
         </div>
 

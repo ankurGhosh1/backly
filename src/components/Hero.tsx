@@ -23,14 +23,14 @@ function Hero() {
             <div className="mt-4 flex justify-center gap-4">
               <a
                 className="inline-block rounded bg-primary px-5 py-2 font-medium text-white shadow-sm transition-colors"
-                href="#"
+                href="/contact"
               >
                 Get Started
               </a>
 
               <a
                 className="inline-block bg-white rounded border border-gray-200 px-5 py-2 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover"
-                href="#"
+                href="/contact"
               >
                 Book a demo
               </a>

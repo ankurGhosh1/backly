@@ -3,20 +3,14 @@ import Image from "next/image";
 
 function Steps() {
   return (
-    <div className="py-16">
+    <div id="how-it-works" className="py-16">
       <div className="mx-auto text-center flex flex-col items-center justify-center gap-4 ">
         <div className="bg-white inline-block rounded-full px-4 py-1 text-sm font-semibold text-back shadow-md">
           <p>How It Works</p>
         </div>
         <h2 className="text-4xl font-medium leading-[1.25]">
-          Simplify Your Financial <br />
-          Management in Three Easy Steps
+          Backlink Qualification Simplified in 3 Easy Steps
         </h2>
-        <p className="mt-4 text-base text-gray ">
-          Streamline your workflow with our intuitive process
-          <br />
-          for quick setup and enhanced financial insights.
-        </p>
       </div>
 
       <div className="grid grid-cols-[1fr_.75fr] max-md:grid-cols-[1fr] gap-4 mt-16">
@@ -27,11 +21,10 @@ function Steps() {
             </div>
             <div className="ml-4">
               <h3 className="text-xl font-semibold">
-                Sign Up and Customize Your Dashboard
+                Upload Your Domains
               </h3>
               <p className="mt-2 text-base text-gray">
-                Choose which metrics to display, set up alerts, and customize
-                reports to focus on what matters most to you.
+                Add individual URLs or upload a bulk CSV file. Backly automatically detects metrics from trusted sources like Ahrefs and analyzes each site in seconds.
               </p>
             </div>
           </div>
@@ -41,12 +34,10 @@ function Steps() {
             </div>
             <div className="ml-4">
               <h3 className="text-xl font-semibold">
-                Integrate Your Financial Data
+                Get AI-Generated Scores
               </h3>
               <p className="mt-2 text-base text-gray">
-                Whether it’s your accounting software or sales channels, our
-                integrations ensure all your data flows into one centralized
-                location.
+                Backly’s scoring algorithm evaluates domain authority, traffic trends, and relevance, producing a simple quality score you can trust.
               </p>
             </div>
           </div>
@@ -56,11 +47,10 @@ function Steps() {
             </div>
             <div className="ml-4">
               <h3 className="text-xl font-semibold">
-                Analyze and Optimize Your Finances
+                Discover Outreach Contacts
               </h3>
               <p className="mt-2 text-base text-gray">
-                Use our powerful tools to monitor income, track orders, evaluate
-                top products, and review transactions
+                Access verified business contacts instantly — export them to your CRM or outreach tools and start building better backlinks.
               </p>
             </div>
           </div>
