@@ -185,42 +185,42 @@ function Footer() {
 
             <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
               <li>
-                <a
+                <Link
                   href="/contact"
                   className="text-gray-500 transition hover:opacity-75"
                 >
                   {" "}
                   Contact{" "}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/terms-and-conditions"
                   className="text-gray-500 transition hover:opacity-75"
                 >
                   {" "}
                   Terms & Conditions{" "}
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="/privacy-policy"
                   className="text-gray-500 transition hover:opacity-75"
                 >
                   {" "}
                   Privacy Policy{" "}
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="/refund-policy"
                   className="text-gray-500 transition hover:opacity-75"
                 >
                   {" "}
                   Refund Policy{" "}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

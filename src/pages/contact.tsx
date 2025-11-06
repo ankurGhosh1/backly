@@ -54,7 +54,7 @@ const ContactPage: NextPage = () => {
           </h1>
           <p className="mt-3 text-lg text-gray-500">
             We would love to hear from you. Send us a message and
-            we'll respond as soon as possible.
+            we&#39;ll respond as soon as possible.
           </p>
         </div>
 
@@ -128,7 +128,7 @@ const ContactPage: NextPage = () => {
 
                 {submitStatus === "success" && (
                   <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-md">
-                    Message sent successfully! We`&apos;`ll get back to you
+                    Message sent successfully! We&#39;ll get back to you
                     soon.
                   </div>
                 )}

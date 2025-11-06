@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Container from "./Container";
 
 function Hero() {
@@ -21,19 +22,19 @@ function Hero() {
               where it matters most.
             </p>
             <div className="mt-4 flex justify-center gap-4">
-              <a
+              <Link
                 className="inline-block rounded bg-primary px-5 py-2 font-medium text-white shadow-sm transition-colors"
                 href="/contact"
               >
                 Get Started
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="inline-block bg-white rounded border border-gray-200 px-5 py-2 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover"
                 href="/contact"
               >
                 Book a demo
-              </a>
+              </Link>
             </div>
           </div>
           {/* Hero Image */}
