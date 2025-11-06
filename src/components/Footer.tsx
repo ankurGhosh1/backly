@@ -24,12 +24,11 @@ function Footer() {
             <div className="col-span-2">
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">
-                  Get the latest news!
+                  Fresh updates in your inbox
                 </h2>
 
                 <p className="mt-4 text-gray-500">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
-                  non cupiditate quae nam molestias.
+                  Subscribe for release notes, feature previews, and best practices to get more out of Backly.
                 </p>
               </div>
             </div>

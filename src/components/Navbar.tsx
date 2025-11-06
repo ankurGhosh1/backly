@@ -93,10 +93,11 @@ export default function Example() {
             </button>
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            <Link href="/about" className="text-sm font-semibold text-gray">
-              About
-            </Link>
 
+
+            <Link href="/#about" className="text-sm font-semibold text-gray">
+              About Us
+            </Link>
             <Link href="/#features" className="text-sm font-semibold text-gray">
               Features
             </Link>
@@ -126,10 +127,10 @@ export default function Example() {
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Backly</span>
                 <Image alt="" src="/logos.png" className="h-8 w-auto" width={100} height={32} />
-              </a>
+              </Link>
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
@@ -163,12 +164,18 @@ export default function Example() {
                       ))}
                     </DisclosurePanel>
                   </Disclosure>
-                  <a
-                    href="#"
+                  <Link
+                    href="/#about"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray hover:bg-gray-50"
+                  >
+                    About Us
+                  </Link>
+                  <Link
+                    href="/#features"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray hover:bg-gray-50"
                   >
                     Features
-                  </a>
+                  </Link>
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray hover:bg-gray-50"
